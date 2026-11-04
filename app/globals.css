@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F8F8F8; /* Tertiary from your image */
+  --foreground: #222222; /* Primary from your image */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #222222;
+  --color-secondary: #7B7B7B;
+  --color-tertiary: #F8F8F8;
+  --color-white: #FFFFFF;
+  
+  /* Using a clean geometric sans-serif to mimic Aeonik */
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom utility for the vertical text */
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
