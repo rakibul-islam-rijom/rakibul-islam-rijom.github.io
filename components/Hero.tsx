@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Hero() {
+    
     return (
         <section className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 pt-24 pb-12 relative overflow-hidden">
 
@@ -30,7 +31,9 @@ export default function Hero() {
                     {/* Stats */}
                     <div className="flex gap-12 pl-0 md:pl-12">
                         <div>
-                            <p className="text-3xl font-light">+{new Date().getFullYear() - 2024}</p>
+                            <p className="text-3xl font-light">
+                                +2
+                            </p>
                             <p className="text-xs text-secondary">Years Experience</p>
                         </div>
                         <div>

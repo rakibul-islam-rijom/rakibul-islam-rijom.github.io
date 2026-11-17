@@ -49,7 +49,7 @@ export default function Footer() {
         {/* Bottom Bar: Social Links & Copyright */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-secondary text-xs">
-            © {new Date().getFullYear()} Rakibul Islam Rijom.
+            ©  Rakibul Islam Rijom.
           </p>
           
           <div className="flex gap-8 text-xs font-medium uppercase tracking-wider">
