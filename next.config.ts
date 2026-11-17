@@ -1,4 +1,3 @@
-
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -9,8 +8,6 @@ const nextConfig: NextConfig = {
   },
 
   trailingSlash: true,
-
-  cacheComponents: true,
 
   turbopack: {
     rules: {
